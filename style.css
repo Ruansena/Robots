@@ -1,0 +1,479 @@
+body{
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+header{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background-color: #5f6debd2;
+    margin-top: 10vh;
+    height: 60vh;
+}
+
+.faixa p{
+    font-size: 15pt;
+    margin: 0;
+}
+
+.faixa p:hover{
+    
+    background-color: rgba(211, 211, 211, 0.342);
+    padding: 8px;
+    color: white;
+    border-radius: 20px;
+    
+}
+
+.faixa{
+    height: 10vh;
+    width: 100vw;
+    background-color: #3244e9;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    display: flex;
+}
+
+/*.logo{
+    height: 35px;
+    width: 35px;
+    border: solid 3px black;
+    border-radius: 25%;
+    padding: 2px;
+}*/
+.text{
+    flex-direction: column;
+    color: white;
+    width: 50vw;
+    height: 10vh;
+    justify-content: space-around;
+}
+.icone-logo {
+    display: flex;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+h1{
+    display: flex;
+    align-items:center;
+    font-family: 'Knewave';
+    font-size: 30pt;
+    margin: 0 5vw 0 0;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, .8);
+}
+.avatar {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ruan {
+    background-image: url('img/RuanAvatar.gif');
+}
+.ruan:hover {
+    background-image: url('img/RuanDancing.gif');
+    width: 100px;
+    height: 100px;
+}
+.japa {
+    background-image: url('img/JapaAvatar.gif');
+}
+.japa:hover {
+    background-image: url('img/JapaRunning.gif');
+    width: 100px;
+    height: 100px;
+}
+.coisa{
+    margin: 5vh 0 ;
+    font-size: 2vw;
+    height: auto;
+    width: 100%;
+    display:block;
+    word-spacing: 4px;
+    animation: textoDinamico 20s infinite;
+}
+.dinamico {
+    font-weight: bold;
+    animation: palavraDinamica 20s infinite;
+}
+.pessoas{
+    margin: 10vh 1vw 0 1vw;
+    /*width: 25vw;*/
+    height: 28vw;
+    border: solid 3px black;
+    border-radius: 10px;
+}
+.time {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.somos{
+    margin: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.somos p{
+    margin: 5px 0 0 0;
+    font-size: 2em;
+    font-family: 'Knewave';
+}
+
+section{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    background-color: #8daffa;
+    width: 100%;
+    height: 70vh;
+}
+
+.nada{
+    background-color: #8daffa;
+    justify-content: center;
+    display: flex;
+}
+
+#galeria{
+    margin: 3vh 0 0 0;
+    font-size: 2em;
+    display: block;
+    color: white;
+}
+
+.second{
+    margin: 0;
+    font-size: 17pt;
+    height: auto;
+    width: 95%;
+    display: flex;
+    color: rgb(124, 124, 124);
+    align-items: center;
+    text-align: center;
+}
+
+h2{
+    font-size: 20pt;
+    color: black;
+    margin: 5% 0 0 0;
+}
+
+.icone{
+    margin-top: 0%;
+    border: solid 3px black;
+    border-radius: 10px;
+    height: 20vw;
+    width: 20vw;
+}
+
+.segunda{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+    padding: 1vw;
+}
+
+.useless{
+    background-color: #acc6ff;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+#vantagens{
+    font-size: 2em;
+    margin: 5vh 0 0 0;
+    text-align: center;
+    display: block;
+    color: white;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, .2);
+}
+
+.vantagem{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    background-color: #acc6ff;
+    width: 100%;
+    height: 40vh;
+}
+
+.vantagem div{
+    text-align: center;
+}
+
+.vantagems{
+    max-width: 100px;
+    border: solid black 5px;
+    border-radius: 100%;
+}
+
+aside{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 50vh;
+    background-color: rgb(154, 198, 255);
+}
+
+.vidro{
+    height: 35vh;
+    width: 35vw;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10% 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#vidro{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 0px;
+    border: solid 5px rgb(34, 34, 34);
+    border-radius: 10px;
+}
+
+.info{
+    flex-direction: column;
+    display: flex;
+    padding: 3% 5% 5% 2%;
+    width: 30vw;
+}
+
+.mensagem{
+    box-sizing: border-box;
+    width: 70%;
+    height: 5vh;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.192);
+}
+
+.send{
+    background-color: #3474fd;
+    width: 15%;
+    height: 10%;
+    border-radius: 20px;
+    margin-left: 1vw;
+}
+
+.butest{
+    margin: 0;
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+.oia{
+    margin-top: 5%;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    width: 80%;
+}
+
+.secondd{
+    margin: 1vh 0 ;
+    font-size: 17pt;
+    height: auto;
+    width: 100%;
+    display: block;
+    color: rgb(156, 156, 156);
+}
+
+.realfooter{
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    width: auto;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 50vw;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h6{
+    padding: 1%;
+    border-radius: 5px;
+}
+
+h6:hover{
+    color: white;
+    background-color:gray;
+}
+
+@media (max-width:500px){
+    .faixa p{
+        display: none;
+    }
+
+    .faixa{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .somos img{
+        display: none;
+    }
+
+    .text{
+        width: 90%;
+    }
+
+    .text p{
+        width: 100%;
+    }
+
+    .alguma{
+         margin: 10vh 0 2vh 0;
+         font-size: 22pt;
+    }
+
+    .coisa{
+        margin: 0;
+        font-size: 12pt;
+    }
+
+    header{
+        height: 50vw;
+    }
+
+    .somos p{
+        display: none;
+    }
+
+    section{
+        flex-direction: row;
+        justify-content: flex-start;
+        display: block;
+        height: 80vh;
+    }
+
+    section .segunda{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    h2{
+        margin: 0 2vw;
+    }
+
+    .second{
+        display: none;
+    }
+
+    .vantagem{
+        height: 30vh;
+    }
+
+    .vantagem h2{
+        font-size: 15pt;
+        margin: 0;
+    }
+    
+    .vantagems{
+        width: 20vw;
+        height: 20vw;
+        margin: 0;
+    }
+
+    aside{
+        display: none;
+    }
+
+    .center{
+        width: 80%;
+    }
+}
+
+@keyframes textoDinamico {
+    0% {
+        color: blue;
+        font-size: 1em;
+    }
+    10% {
+        color: red;
+        font-size: 1.5em;
+    }
+    45% {
+        color: white;
+        font-size: 1.5em;
+    }
+    50% {
+        font-size: 2em;
+    }
+    55% {
+        font-size: 2.5em;
+    }
+    60% {
+        text-align: left;
+    }
+    65% {
+        text-align: right;
+    }
+    70% {
+        text-align: center;
+        text-shadow: none;
+    }
+    80% {
+        text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+    }
+    90% {
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+    }
+    100% {
+        color: white;
+        text-align: center;
+        font-size: 2.5em;
+        word-spacing: 0px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+    }
+}
+@keyframes palavraDinamica {
+    0% {
+        color: inherit;
+    }
+    11% {
+        color: inherit;
+    }
+    33% {
+        color: #333;
+        font-style: normal;
+    }
+    45% {
+        color: #333;
+        font-style: italic;
+    }
+    100% {
+        color: #333;
+        font-style: italic;
+    }
+}
